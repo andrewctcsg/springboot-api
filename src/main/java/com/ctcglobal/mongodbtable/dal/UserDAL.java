@@ -9,7 +9,7 @@ public interface UserDAL {
 
     User getUserByEmail(String email);
 
-    User getUserByName(String first_name);
+    User getUserByFirstName(String first_name);
 
     User getUserByLastName(String last_name);
 
