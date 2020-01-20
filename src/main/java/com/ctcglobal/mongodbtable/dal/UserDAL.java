@@ -9,9 +9,9 @@ public interface UserDAL {
 
     User getUserByEmail(String email);
 
-    User getUserByFirst_name(String first_name);
+    User getUserByFname(String first_name);
 
-    User getUserByLast_name(String last_name);
+    User getUserByLname(String last_name);
 
     User getUserByMobile(String mobile);
 
