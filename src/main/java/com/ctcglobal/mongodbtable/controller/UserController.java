@@ -28,7 +28,7 @@ public class UserController {
     @RequestMapping(value = "/name/{first_name}", method = RequestMethod.GET)
     public User getUser(@PathVariable String first_name) {
         LOG.info("Getting user with name: {}.", first_name);
-        return userRepository.getUserByFirst_name(first_name);
+        return userRepository.getUserByFname(first_name);
     }
 
     @RequestMapping(value = "/email/{email}", method = RequestMethod.GET)
