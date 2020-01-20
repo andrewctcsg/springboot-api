@@ -15,11 +15,11 @@ public class User {
         return email;
     }
 
-    public String getFirst_name() {
+    public String getFname() {
         return first_name;
     }
 
-    public String getLast_name() {
+    public String getLname() {
         return last_name;
     }
 
