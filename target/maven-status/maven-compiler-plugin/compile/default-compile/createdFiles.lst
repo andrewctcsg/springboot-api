@@ -1,0 +1,6 @@
+com\ctcglobal\mongodbtable\controller\UserController.class
+com\ctcglobal\mongodbtable\dal\UserDALImpl.class
+com\ctcglobal\mongodbtable\MongodbTableApplication.class
+com\ctcglobal\mongodbtable\dal\UserDAL.class
+com\ctcglobal\mongodbtable\dal\UserRepository.class
+com\ctcglobal\mongodbtable\model\User.class
