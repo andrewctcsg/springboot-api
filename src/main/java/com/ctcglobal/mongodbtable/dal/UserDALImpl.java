@@ -30,14 +30,14 @@ public class UserDALImpl implements UserDAL {
     @Override
     public User getUserByFname(String first_name) {
         Query query = new Query();
-        query.addCriteria(Criteria.where("first_name"). is(first_name));
+        query.addCriteria(Criteria.where("fname"). is(fname));
         return mongoTemplate.findOne(query, User.class);
     }
 
     @Override
     public User getUserByLname(String last_name) {
         Query query = new Query();
-        query.addCriteria(Criteria.where("last_name"). is(last_name));
+        query.addCriteria(Criteria.where("lname"). is(lname));
         return mongoTemplate.findOne(query, User.class);
     }
 
