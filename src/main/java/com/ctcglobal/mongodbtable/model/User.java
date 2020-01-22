@@ -7,20 +7,20 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
     @Id
     private String email;
-    private String fname;
-    private String lname;
+    private String first_name;
+    private String last_name;
     private String mobile;
 
     public String getEmail() {
         return email;
     }
 
-    public String getFname() {
-        return fname;
+    public String getFirst_name() {
+        return first_name;
     }
 
-    public String getLname() {
-        return lname;
+    public String getLast_name() {
+        return last_name;
     }
 
     public String getMobile() {
