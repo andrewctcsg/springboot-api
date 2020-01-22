@@ -16,11 +16,11 @@ public class User {
     }
 
     public String getFname() {
-        return first_name;
+        return fname;
     }
 
     public String getLname() {
-        return last_name;
+        return lname;
     }
 
     public String getMobile() {
