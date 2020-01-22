@@ -7,8 +7,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class User {
     @Id
     private String email;
-    private String first_name;
-    private String last_name;
+    private String fname;
+    private String lname;
     private String mobile;
 
     public String getEmail() {
@@ -16,11 +16,11 @@ public class User {
     }
 
     public String getFname() {
-        return first_name;
+        return fname;
     }
 
     public String getLname() {
-        return last_name;
+        return lname;
     }
 
     public String getMobile() {
