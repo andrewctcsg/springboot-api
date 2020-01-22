@@ -25,10 +25,10 @@ public class UserController {
         return userRepository.findAll();
     }
 
-    @RequestMapping(value = "/name/{fname}", method = RequestMethod.GET)
-    public User getUser(@PathVariable String fname) {
-        LOG.info("Getting user with name: {}.", fname);
-        return userRepository.getUserByFname(fname);
+    @RequestMapping(value = "/name/{first_name}", method = RequestMethod.GET)
+    public User getUser(@PathVariable String first_name) {
+        LOG.info("Getting user with name: {}.", first_name);
+        return userRepository.getUserByFirst_name(first_name);
     }
 
     @RequestMapping(value = "/email/{email}", method = RequestMethod.GET)
